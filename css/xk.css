@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-11-2, 15:13:54
+    Author     : jiangxingqi
+*/
+form{margin: 10px 0}
+form .label{display: inline-block;width: 70px;margin-right: 10px}
+form.style1{text-align: center}
+form.style1 div.outer{border: 1px solid #458994;display: inline-block}
+form.style1 div title{
+    color: white;background-color: #458994;font-size: 20px;
+    padding-top:12px;padding-bottom: 8px;margin: 1px; 
+}
+form.style1 div.inter{padding: 10px;text-align: left}
+input,select{font-size: 13px;padding: 3px 1px}
+input[type=submit]{
+    padding: 4px 15px;color:steelblue;background-color: #eeeeee;
+    border:1px solid steelblue;cursor: pointer
+}
+input[type=submit].big{
+    font-size: 15px;
+    padding: 7px 30px;
+}
+input[type=submit].text{
+    font-size: 14px;padding: 1px 2px;color: steelblue;
+    background-color: white;border-width: 0
+}
+input[type=submit]:hover{font-weight: 700}
+textarea {letter-spacing: 1.2px;line-height: 1.5}
+form .errMsg{font-size: 13px;color:red}
