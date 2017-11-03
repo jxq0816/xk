@@ -11,13 +11,13 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="/xk/css/xk.css"/>
     </head>
     <body>
-        <?php include("header_admin.php");?>
+        <?php include("header.php");?>
         <div style="width: 100%;min-height: 150px;margin: 0 auto;padding: 5px;">
             <?php
-               include("login_admin.php");
+               include("login.php");
             ?>
         </div>
     
-        <?php include("footer_admin.php"); ?>
+        <?php include("footer.php"); ?>
     </body>
 </html>
