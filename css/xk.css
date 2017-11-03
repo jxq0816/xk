@@ -7,11 +7,25 @@ and open the template in the editor.
     Created on : 2017-11-2, 15:13:54
     Author     : jiangxingqi
 */
+/*基本样式*/
+body{font-size: 14px;letter-spacing: 1.2px}
+.title{color: #458994;font-weight: 700}
+a{color: steelblue;text-decoration: none}
+a:visited{color: steelblue}
+a:hover{text-decoration: underline;font-weight: 700}
+/*水平导航栏样式*/
+.nav{width: 90%;background-color: #eeeeee;margin:5px auto 5px auto }
+.nav .left{float: left;padding:5px 10px 5px 10px}
+.nav .right{float: right;padding:5px 10px 5px 10px}
+.nav .current{background-color: steelblue;color:white }
+.clear{ clear:both} 
+
+
 form{margin: 10px 0}
-form .label{display: inline-block;width: 70px;margin-right: 10px}
+form.label{display: inline-block;width: 70px;margin-right: 10px}
 form.style1{text-align: center}
-form.style1 div.outer{border: 1px solid #458994;display: inline-block}
-form.style1 div title{
+form.style1 div.outer{width: 50%;border: 1px solid #458994;display: inline-block}
+form.style1 div.title{
     color: white;background-color: #458994;font-size: 20px;
     padding-top:12px;padding-bottom: 8px;margin: 1px; 
 }
@@ -31,4 +45,4 @@ input[type=submit].text{
 }
 input[type=submit]:hover{font-weight: 700}
 textarea {letter-spacing: 1.2px;line-height: 1.5}
-form .errMsg{font-size: 13px;color:red}
+form.errMsg{font-size: 13px;color:red}

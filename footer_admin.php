@@ -9,7 +9,7 @@
 </style>
 <div class="h1"></div>
 <div class="af">
-    <img src="/xk/image/logo.png">
+<!--    <img src="/xk/image/logo.png">-->
     <span>Copyright&copy; 2016 首都经济贸易大学 信息学院</span>
-    <div style="clear: both"></div>
+    <div class="clear"></div>
 </div>
