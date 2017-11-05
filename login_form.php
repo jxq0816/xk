@@ -17,7 +17,7 @@
             
             <p>
                
-                <input type="radio" id="i31" style="margin-left:-70px" name="role" value="学生"/>
+                <input type="radio" id="i31" style="margin-left:-80px" name="role" value="学生"/>
                     <label id="i3" for="i31"/>学生</label>
                     <input type="radio" id="i32" name="role" value="教师">
                     <label for="i32">教师</label>
