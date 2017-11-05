@@ -12,8 +12,8 @@
     <body>
         <div class="nav">
            
-            <a class='right' href="logoff.php">退出</a>
-            <span class="right"><?php echo $name.",您好!"?></span>
+            <a class='right' href="../index.php">退出</a>
+            <span class="right"><?php echo $name."同学,您好!"?></span>
            
            
             <a class='left <?php echo $choice==1 ? "current" : ""?>' href="course.php">浏览课程信息</a>
