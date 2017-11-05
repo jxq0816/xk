@@ -10,6 +10,6 @@
 <div class="h1"></div>
 <div class="af">
 <!--    <img src="/xk/image/logo.png">-->
-    <span>Copyright&copy; 2016 首都经济贸易大学 信息学院</span>
+    <span>Copyright&copy; 2017 首都经济贸易大学 信息学院 电话:1234567 邮箱:abcde@cueb.edu.cn</span>
     <div class="clear"></div>
 </div>
