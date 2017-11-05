@@ -1,21 +1,21 @@
 <form class="style1" method="POST">
     <div class="outer">
         <div class="title">请注册</div>
-        <div>
+        <div style="text-align:left">
             <p>
                 <label for="i1" class="label">用户名*</label>
                 <input type="text" id="i1" name="user" maxlength="10" style="width: 130px" value=""/>
             </p>
             <p>
-                <label for="i2" class="label">密码*&nbsp;&nbsp;</label>
+                <label for="i2" class="label">密码*</label>
                 <input type="password" id="i2" name="pw" maxlength="12" style="width: 130px" value="<?php //echo $pw   ?>"/>
             </p>
             <p>
-                <label for="i3" class="label">确认密码*&nbsp;&nbsp;</label>
+                <label for="i3" class="label">确认密码*</label>
                 <input type="password" id="i3" name="pw2" maxlength="12" style="width: 130px" value="<?php //echo $pw   ?>"/>
             </p>
              <p>
-                <span class="label">性　别</label>
+                 <label for="i4" class="label">性　别*</label>
           
                 <input type="radio" id="i31" name="gender" value="男"/>
                 <label for="i31"/>男</label>
