@@ -15,7 +15,6 @@ and open the template in the editor.
         <div style="width: 100%;min-height: 150px;margin: 0 auto;padding: 5px;">
             <?php
                include("navigation.php");
-               include("welcome.php");
             ?>
         </div>
     

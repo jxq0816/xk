@@ -22,7 +22,7 @@
     ?>
     <br>
      <?php
-       $tm=date("h:i:s",$time1);
+       $tm=date("H:i:s",$time1);
        echo $tm;   
     ?>
     </div>
