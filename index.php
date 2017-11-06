@@ -14,7 +14,8 @@ and open the template in the editor.
         <?php include("header.php");?>
         <div style="width: 100%;min-height: 150px;margin: 0 auto;padding: 5px;">
             <?php
-               include("login_form.php");
+               include("navigation.php");
+               include("welcome.php");
             ?>
         </div>
     

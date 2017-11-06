@@ -9,6 +9,7 @@ and open the template in the editor.
 */
 /*基本样式*/
 body{font-size: 14px;letter-spacing: 1.2px}
+p{margin-left:20%; text-align: left}
 .title{color: #458994;font-weight: 700}
 a{color: steelblue;text-decoration: none}
 a:visited{color: steelblue}
