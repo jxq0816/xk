@@ -17,8 +17,8 @@
         if ($isLogin == false) {
             ?>
             <div class="nav">
-                <a class='right <?php echo $choice == 2 ? "current" : "" ?>' href="#">注册</a>
-                <a class='right <?php echo $choice == 1 ? "current" : "" ?>' href="#">登录</a>
+                <a class='right <?php echo $choice == 2 ? "current" : "" ?>' href="registration.php">注册</a>
+                <a class='right <?php echo $choice == 1 ? "current" : "" ?>' href="login.php">登录</a>
             </div>
             <div style="clear:both"></div>
             <?php

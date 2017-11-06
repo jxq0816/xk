@@ -4,7 +4,9 @@
     .ah span{float:left;font-size: 28px;font-weight: 700;margin-top: 20px}
 </style>
 <div class="ah">
-    <img src="/xk/image/logo.jpg"></img>
+    <a href="index.php">
+        <img src="image/logo.jpg"></img>
+    </a>
     <span style="color: rgb(178,200,187)">欢迎使用</span>
 <!--    <span style="color: rgb(114,83,52)">.</span>-->
     <span style="color: rgb(69,137,148)">教学管理系统!</span>
