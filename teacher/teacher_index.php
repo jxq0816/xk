@@ -12,6 +12,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php include("../header.php");?>
+        <?php include("navigation_teacher.php");?>
         <div class="center">
             <?php
                include("course_teacher.php");
