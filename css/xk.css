@@ -21,6 +21,7 @@ a:hover{text-decoration: underline;font-weight: 700}
 .nav .current{background-color: steelblue;color:white }
 .clear{ clear:both} 
 
+.center{width: 100%;min-height: 150px;margin: 0 auto;padding: 5px}
 
 form{margin: 10px 0}
 form .label{display: inline-block;width: 70px;margin-right: 10px;}
@@ -47,3 +48,10 @@ input[type=submit].text{
 input[type=submit]:hover{font-weight: 700}
 textarea {letter-spacing: 1.2px;line-height: 1.5}
 form.errMsg{font-size: 13px;color:red}
+
+/*数据表格样式*/
+table{width: 80%;margin:20px auto;border-width: 0;border-collapse: collapse;font-size:14px;}
+tr {height: 30px}
+thead{color:#458994;border-top:1px solid #458994;border-bottom: 2px solid #458994}
+tfoot{color:#458994;border-top:1px solid #458994}
+

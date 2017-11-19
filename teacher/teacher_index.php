@@ -8,16 +8,16 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>首页</title>
-        <link rel="stylesheet" type="text/css" href="/xk/css/xk.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/xk.css?random=<?php rand()?>"/>
     </head>
     <body>
-        <?php include("header.php");?>
+        <?php include("../header.php");?>
         <div class="center">
             <?php
-                include("registration_form.php");
+               include("course_teacher.php");
             ?>
         </div>
     
-        <?php include("footer.php"); ?>
+        <?php include("../footer.php"); ?>
     </body>
 </html>

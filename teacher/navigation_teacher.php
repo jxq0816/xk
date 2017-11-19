@@ -3,7 +3,7 @@
     <head>
         <title>navigation</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="/xk/css/xk.css"/>
+        <link rel="stylesheet" type="text/css" href="/xk/css/xk.css?random=<?php rand()?>"/>
         <?php
             $name="jiangxingqi";
             $choice=1;

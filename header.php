@@ -5,7 +5,7 @@
 </style>
 <div class="ah">
     <a href="index.php">
-        <img src="image/logo.jpg"></img>
+        <img src="/xk/image/logo.jpg"></img>
     </a>
     <span style="color: rgb(178,200,187)">欢迎使用</span>
 <!--    <span style="color: rgb(114,83,52)">.</span>-->

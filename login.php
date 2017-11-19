@@ -8,11 +8,11 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>首页</title>
-        <link rel="stylesheet" type="text/css" href="/xk/css/xk.css"/>
+        <link rel="stylesheet" type="text/css" href="css/xk.css"/>
     </head>
     <body>
         <?php include("header.php");?>
-        <div style="width: 100%;min-height: 150px;margin: 0 auto;padding: 5px;">
+        <div class="center">
             <?php
                include("login_form.php");
             ?>

@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>首页</title>
-        <link rel="stylesheet" type="text/css" href="/xk/css/xk.css"/>
+        <link rel="stylesheet" type="text/css" href="css/xk.css"/>
     </head>
     <body>
         <?php include("header.php");?>
